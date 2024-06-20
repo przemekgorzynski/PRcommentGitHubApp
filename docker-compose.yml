@@ -1,0 +1,19 @@
+---
+version: '3.8'
+
+services:
+  prcomment:
+    container_name: prcomment
+    image: prcomment
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 8000:8000
+    expose:
+      - 8000
+    environment:
+      - app_id=XXXXXXXXX
+      - webhook_secret=XXXXXXXXX
+      - private_key_file_path=XXXXXXXXX
+    restart: unless-stopped
