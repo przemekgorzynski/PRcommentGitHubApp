@@ -1,6 +1,6 @@
 fastapi==0.111.1
 uvicorn==0.30.6
-pyjwt==2.8.0
+pyjwt==2.9.0
 requests==2.32.3
 datetime==5.5
 cryptography==43.0.0
