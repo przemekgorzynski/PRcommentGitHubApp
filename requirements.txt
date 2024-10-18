@@ -3,4 +3,4 @@ uvicorn==0.30.6
 pyjwt==2.9.0
 requests==2.32.3
 datetime==5.5
-cryptography==43.0.1
+cryptography==43.0.3
